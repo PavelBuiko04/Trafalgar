@@ -1,0 +1,800 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header, #virtual, #learding, #download, #whatout .rectanglewhatout .comment .grouphuman, #checkoutour .cardscheck, footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer, footer .container .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#virtual .virtualhealthcare p, #outservices .text p, #outservices .card p, #learding .learding-text p, #download .downloadtext p, #checkoutour p {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+  color: #7D7987;
+  line-height: 32px;
+}
+
+#outservices h2, #learding .learding-text h2, #download .downloadtext h2, #checkoutour h2 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+#outservices .card h3 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+#checkoutour h5 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+footer .container .group h6 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+footer .container .group .bb a {
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 38px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav {
+  display: none;
+}
+
+.div-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button {
+  font-family: 'Mulish', sans-serif;
+  padding: 13px 40px;
+  background-color: #458FF6;
+  border-radius: 55px;
+  color: #ffffff;
+  display: inline-block;
+  margin-top: 38px;
+  text-decoration: none;
+  border: 1px solid #458FF6;
+  -webkit-transition: background-color 500ms, color 500ms, -webkit-transform 500ms;
+  transition: background-color 500ms, color 500ms, -webkit-transform 500ms;
+  transition: background-color 500ms, color 500ms, transform 500ms;
+  transition: background-color 500ms, color 500ms, transform 500ms, -webkit-transform 500ms;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #458FF6;
+  border: 1px solid #458FF6;
+  -webkit-transition: background-color 500ms, color 500ms, -webkit-transform 500ms;
+  transition: background-color 500ms, color 500ms, -webkit-transform 500ms;
+  transition: background-color 500ms, color 500ms, transform 500ms;
+  transition: background-color 500ms, color 500ms, transform 500ms, -webkit-transform 500ms;
+}
+
+.container {
+  max-width: 1220px;
+  margin: auto;
+}
+
+header {
+  padding-top: 62px;
+  padding-bottom: 84px;
+}
+
+header .logo {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #233348;
+  text-decoration: none;
+}
+
+header .div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .div a {
+  padding-left: 10px;
+}
+
+header nav a {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #7D7987;
+  text-decoration: none;
+  padding-left: 40px;
+}
+
+header nav a:first-child {
+  color: #233348;
+  font-weight: 700;
+}
+
+#virtual .virtualhealthcare {
+  padding-top: 161px;
+  width: 50%;
+}
+
+#virtual .virtualhealthcare h1 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+}
+
+#virtual .virtualhealthcare p {
+  font-size: 21px;
+  padding-top: 35px;
+}
+
+#outservices {
+  margin-top: 200px;
+}
+
+#outservices h2 {
+  text-align: center;
+}
+
+#outservices .text p {
+  font-size: 18px;
+  width: 952px;
+  margin: auto;
+  text-align: center;
+  padding-top: 33px;
+}
+
+#outservices .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#outservices .card {
+  width: 30%;
+  -webkit-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+          box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  background: #ffffff;
+  padding: 54px 45px 46px 39px;
+  margin-bottom: 37px;
+}
+
+#outservices .card img {
+  width: 80px;
+  height: 90px;
+}
+
+#outservices .card h3 {
+  padding-top: 22px;
+}
+
+#outservices .card p {
+  font-size: 16px;
+}
+
+#learding {
+  padding-top: 220px;
+}
+
+#learding .learding-text {
+  padding-top: 57px;
+  padding-left: 137px;
+}
+
+#learding .learding-text h2 {
+  padding-bottom: 22px;
+}
+
+#learding .learding-text p {
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+#download {
+  padding-top: 265px;
+}
+
+#download .downloadtext {
+  padding: 57px 0px 0px 0px;
+}
+
+#download .downloadtext h2 {
+  padding-bottom: 22px;
+}
+
+#download .downloadtext p {
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+#whatout {
+  margin-top: 266px;
+}
+
+#whatout .rectanglewhatout {
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  border-radius: 24px;
+  width: 95%;
+  margin: auto;
+}
+
+#whatout .rectanglewhatout h4 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+  padding-top: 64px;
+  text-align: center;
+}
+
+#whatout .rectanglewhatout .comment {
+  margin-top: 77px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+#whatout .rectanglewhatout .comment .grouphuman {
+  width: 370px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#whatout .rectanglewhatout .comment .grouphuman .humanimg img {
+  border: 3px solid #ffffff;
+  border-radius: 100px;
+}
+
+#whatout .rectanglewhatout .comment .grouphuman .humantext {
+  padding-left: 29px;
+}
+
+#whatout .rectanglewhatout .comment .grouphuman .humantext h3 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+  width: 184px;
+}
+
+#whatout .rectanglewhatout .comment .grouphuman .humantext p {
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 184px;
+}
+
+#whatout .rectanglewhatout .comment .humancomment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#whatout .rectanglewhatout .comment .humancomment p {
+  font-family: 'Mulish', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 420px;
+}
+
+#checkoutour {
+  margin-top: 216px;
+}
+
+#checkoutour h2 {
+  text-align: center;
+}
+
+#checkoutour .cardscheck {
+  margin-top: 79px;
+  margin-bottom: 31px;
+}
+
+#checkoutour .cardcheck {
+  -webkit-box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+          box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  background: #ffffff;
+  width: 30%;
+}
+
+#checkoutour .cardcheck img {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+}
+
+#checkoutour h5 {
+  padding: 24px 51px 0px 33px;
+}
+
+#checkoutour p {
+  font-size: 16px;
+  padding: 12px 51px 0px 33px;
+}
+
+#checkoutour .readmore {
+  color: #458FF6;
+  font-family: 'Mulish', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 25px 0 35px 33px;
+}
+
+#checkoutour .cardcheckstext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+footer {
+  margin-top: 80px;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+footer .container {
+  padding: 118px 0 114px 0;
+  width: 1220px;
+  margin: auto;
+}
+
+footer .container .group1 {
+  max-width: 40%;
+}
+
+footer .container .group1 p {
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+  padding-bottom: 31px;
+}
+
+footer .container .group1 .logo {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer .container .group1 .div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 17px;
+}
+
+footer .container .group1 .div a {
+  padding-left: 10px;
+}
+
+footer .container .group .bb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 1315px) {
+  .container {
+    max-width: 90%;
+    margin: auto;
+  }
+  #virtual .imgvirtual img, #learding .leardingimg img, #download .downloadimg img {
+    width: 650px;
+  }
+}
+
+@media (max-width: 1165px) {
+  #learding .leardingimg img, #download .downloadimg img {
+    width: 550px;
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 1096px) {
+  #virtual .virtualhealthcare {
+    padding-top: 80px;
+  }
+  #learding .leardingimg img, #download .downloadimg img {
+    width: 450px;
+  }
+}
+
+@media (max-width: 1106px) {
+  #outservices .text p {
+    width: 95%;
+  }
+  #outservices .card img {
+    width: 30%;
+    height: none;
+  }
+  #learding .learding-text {
+    padding-left: 50px;
+  }
+  #download, #learding {
+    padding-top: 165px;
+  }
+}
+
+@media (max-width: 960px) {
+  #virtual .imgvirtual img {
+    width: 550px;
+  }
+  .grouphuman {
+    width: 100%;
+    padding-left: 30px;
+  }
+  .humancomment {
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  #whatout .rectanglewhatout .comment .humancomment p {
+    width: 90%;
+  }
+  #whatout .rectanglewhatout .comment {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #whatout .rectanglewhatout .comment {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 865px) {
+  #virtual .virtualhealthcare h1 {
+    font-size: 38px;
+  }
+  #virtual .imgvirtual img, #learding .leardingimg img, #download .downloadimg img {
+    width: 450px;
+  }
+  header nav a {
+    padding-left: 20px;
+  }
+  #checkoutour .readmore {
+    padding: 25px 0px 23px 23px;
+  }
+  #checkoutour h5 {
+    padding: 24px 23px 23px 23px;
+  }
+  #virtual .virtualhealthcare p, #outservices .text p, #outservices .card p, #learding .learding-text p, #download .downloadtext p, #checkoutour p {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0px 23px 23px 23px;
+  }
+  #outservices h2, #learding .learding-text h2, #download .downloadtext h2, #checkoutour h2 {
+    font-size: 26px;
+  }
+  #outservices .card h3 {
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 761px) {
+  #virtual .virtualhealthcare h1 {
+    font-size: 33px;
+  }
+  #virtual .virtualhealthcare p, #outservices .text p, #outservices .card p, #learding .learding-text p, #download .downloadtext p, #checkoutour p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .logo {
+    display: none;
+  }
+  #virtual .imgvirtual img, #learding .leardingimg img, #download .downloadimg img {
+    width: 350px;
+  }
+  #whatout .rectanglewhatout .comment .grouphuman .humantext {
+    padding-left: 0px;
+  }
+  #checkoutour .cardscheck {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  #checkoutour .cardcheck {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 695px) {
+  #virtual .imgvirtual img, #learding .leardingimg img, #download .downloadimg img {
+    width: 350px;
+    margin-top: 50px;
+  }
+  #virtual .virtualhealthcare {
+    padding-top: 50px;
+  }
+  footer .container .group1 .div a {
+    display: inline-block;
+  }
+  footer .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer .container .group1 {
+    max-width: 100%;
+  }
+  footer .container {
+    padding: 25px 0 114px 0;
+  }
+}
+
+@media (max-width: 690px) {
+  #virtual .virtualhealthcare {
+    padding-top: 40px;
+  }
+  #virtual .virtualhealthcare h1 {
+    font-size: 28px;
+  }
+  .button {
+    padding: 10px 35px;
+  }
+  #outservices .card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 610px) {
+  .container {
+    width: 95%;
+  }
+  #outservices .card {
+    width: 48%;
+  }
+  header nav a {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 590px) {
+  #outservices .card {
+    padding: 30px 25px 26px 23px;
+  }
+  .container {
+    max-width: 85%;
+  }
+  #virtual .virtualhealthcare h1 {
+    font-size: 23px;
+  }
+  .imgvirtual, .leardingimg, .downloadimg {
+    position: absolute;
+    opacity: 0.3;
+  }
+  .virtualhealthcare, .learding-text, .downloadtext {
+    position: relative;
+    z-index: 5;
+  }
+  #virtual .imgvirtual img, .leardingimg img, #download .downloadimg img {
+    width: 90%;
+  }
+  #virtual .virtualhealthcare, #learding .leardingimg img, #learding .leardingimg img {
+    width: 95%;
+    margin-top: 0px;
+  }
+  .div {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 20px;
+  }
+  #learding .learding-text, #learding .learding-text {
+    padding-left: 0px;
+  }
+  #learding {
+    padding-top: 65px;
+  }
+  #download {
+    padding-top: 165px;
+  }
+  #outservices {
+    margin-top: 200px;
+  }
+  #virtual .virtualhealthcare {
+    padding-top: 140px;
+  }
+  #whatout .rectanglewhatout .comment .grouphuman .humanimg img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 534px) {
+  #whatout .rectanglewhatout h4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 35px;
+  }
+  #whatout .rectanglewhatout .comment .grouphuman .humantext {
+    padding-left: -15px;
+  }
+  nav {
+    display: none;
+  }
+  .nav {
+    display: inline-block;
+  }
+  .nav img {
+    width: 42px;
+  }
+  .div {
+    width: 20%;
+  }
+  header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (max-width: 468px) {
+  #whatout .rectanglewhatout .comment .grouphuman {
+    width: 100%;
+  }
+  .humantext, .humanimg {
+    width: 100%;
+  }
+  #checkoutour .cardcheck {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #whatout .rectanglewhatout .comment .grouphuman {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 471px) {
+  #outservices .card {
+    width: 100%;
+  }
+  #checkoutour .cardcheck {
+    width: 95%;
+  }
+}
+
+@media (max-width: 411px) {
+  #virtual .imgvirtual img {
+    width: 100%;
+  }
+  #virtual .virtualhealthcare {
+    margin-top: 20px;
+  }
+  footer, footer .container .group {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-top: 20px;
+  }
+  footer .container .group .bb {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .container .group h6 {
+    line-height: 30px;
+    padding-right: 20px;
+    width: 110px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
