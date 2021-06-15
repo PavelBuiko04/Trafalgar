@@ -1,0 +1,799 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$colora: #233348;
+$colorb: #7D7987;
+$colorc: #458FF6;
+$colore: #ffffff;
+
+%row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+%column{
+    display: flex;
+    flex-direction: column;
+}
+
+%p{ 
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    color: $colorb; 
+    line-height: 32px;
+}
+
+%h2{
+    font-family: 'Mulish', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+
+}
+
+%h3{
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+%h5{
+    font-family: 'Mulish', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+%h6{
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+    color: $colore;
+}
+
+%a{
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px;
+    color: $colore;
+    text-decoration: none;
+}
+
+.nav{
+    display: none;
+}
+
+.div-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    font-family: 'Mulish', sans-serif;
+    padding: 13px 40px;
+    background-color: $colorc;
+    border-radius: 55px;
+    color: $colore;
+    display: inline-block;
+    margin-top: 38px;
+    text-decoration: none;
+    border: 1px  solid $colorc;
+    transition: background-color 500ms, color 500ms, transform 500ms;
+
+    &:hover{
+        background-color: $colore;
+        color: $colorc;
+        border: 1px  solid $colorc;
+        transition: background-color 500ms, color 500ms, transform 500ms;
+    }
+}
+
+.container{
+    max-width: 1220px;
+    margin: auto;
+}
+
+header{
+    @extend %row;
+    padding-top: 62px;
+    padding-bottom: 84px;
+    
+    .logo{
+        font-family: 'Mulish', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        color: $colora;
+        text-decoration: none;  
+    }
+
+    .div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        a{
+            padding-left: 10px;
+        }
+    }
+
+    nav{
+        a{
+            font-family: 'Mulish', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            color: $colorb;
+            text-decoration: none;
+            padding-left: 40px;
+
+            &:first-child{
+                color: $colora;
+                font-weight: 700;
+            }
+        }
+
+    }
+}
+
+#virtual{
+    @extend %row;
+    .virtualhealthcare{
+        padding-top: 161px;
+        width: 50%;
+        h1{
+        font-family: 'Mulish', sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        color: #000000;
+        }
+
+        p{
+            @extend %p;
+            font-size: 21px;
+            padding-top: 35px;
+        }
+    }
+}
+
+#outservices{
+    margin-top: 200px;
+    h2{
+        @extend %h2;
+        text-align: center;
+    }
+
+    .text{
+        p{
+            @extend %p;
+            font-size: 18px;
+            width: 952px;
+            margin: auto;
+            text-align: center;
+            padding-top: 33px;
+        }
+    }
+
+    .cards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card{
+        width: 30%;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        background: #ffffff;
+        padding: 54px 45px 46px 39px;
+        margin-bottom: 37px;
+
+        img{
+            width: 80px;
+            height: 90px;
+        }
+
+        h3{
+            @extend %h3;
+            padding-top: 22px;
+        }
+
+        p{
+            @extend %p;
+            font-size: 16px;
+        }
+    }
+}
+
+#learding{
+    padding-top: 220px;
+    @extend %row;
+
+    .learding-text{
+        padding-top: 57px;
+        padding-left: 137px;
+
+        h2{
+            @extend %h2;
+            padding-bottom: 22px
+        }
+
+        p{
+            @extend %p;
+            font-size: 18px;
+            padding-top: 30px;
+        }
+    }
+}
+
+#download{
+    padding-top: 265px;
+    @extend %row;
+
+    .downloadtext{
+        padding: 57px 0px 0px 0px;
+
+        h2{
+            @extend %h2;
+            padding-bottom: 22px;
+        }
+
+        p{
+            @extend %p;
+            font-size: 18px;
+            padding-top: 30px;
+        }
+    }
+}
+
+#whatout{
+    margin-top: 266px;
+    .rectanglewhatout{
+        background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+        border-radius: 24px;
+        width: 95%;
+        margin: auto;
+
+        h4{
+            font-family: 'Mulish', sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 48px;
+            color: #ffffff;
+            padding-top: 64px;
+            text-align: center;
+        }
+        .comment{
+            margin-top: 77px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding-bottom: 100px;
+
+            .grouphuman{
+                @extend %row;
+                width: 370px;
+                align-items: center;
+    
+                .humanimg img{
+                    border: 3px solid #ffffff;
+                    border-radius: 100px;
+                }
+    
+                .humantext{
+                    padding-left: 29px;
+                    h3{
+                        font-family: 'Mulish', sans-serif;
+                        font-size: 22px;
+                        font-weight: 700;
+                        line-height: 48px;
+                        color: #ffffff;
+                        width: 184px;
+                    }
+    
+                    p{
+                        font-family: 'Mulish', sans-serif;
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: #ffffff;
+                        width: 184px;
+                    }
+                }
+            }
+    
+            .humancomment{
+                display: flex;
+                align-items: center;
+                p{
+                    font-family: 'Mulish', sans-serif;
+                    font-size: 19px;
+                    font-weight: 400;
+                    color: #ffffff;
+                    width: 420px;
+                }
+            }
+        }
+    }
+}
+
+#checkoutour{
+    margin-top: 216px;
+    h2{
+        @extend %h2;
+        text-align: center;
+    }
+
+    .cardscheck{
+        @extend %row;
+        margin-top: 79px;
+        margin-bottom: 69px - 38px ;
+    }
+
+    .cardcheck{
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        background: #ffffff;
+        width: 30%;
+
+        img{
+            border-radius: 20px 20px 0px 0px;
+            width: 100%;
+        }
+    }
+
+    h5{
+        @extend %h5;
+        padding: 24px 51px 0px 33px;
+    }
+
+    p{
+        @extend %p;
+        font-size: 16px;
+        padding: 12px 51px 0px 33px;
+    }
+
+    .readmore{
+        color: $colorc;
+        font-family: 'Mulish', sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 28px;
+        text-decoration: none;
+        display: inline-block;
+        padding: 25px 0 35px 33px;
+    }
+
+    .cardcheckstext{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+}
+
+footer{
+    margin-top: 80px;
+    @extend %column;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+    .container{
+        padding: 118px 0 114px 0;
+        width: 1220px;
+        margin: auto;
+        @extend %row;
+        .group1{
+            max-width: 40% ;
+
+            p{
+                 font-family: 'Mulish', sans-serif;
+                 font-size: 18px;
+                 font-weight: 300;
+                 color: #ffffff;
+                 padding-bottom: 31px;
+            }
+     
+            .logo{
+             font-family: 'Mulish', sans-serif;
+             font-weight: 700;
+             font-size: 24px;
+             color: $colore;
+             text-decoration: none;  
+            }
+     
+             .div{
+                 display: flex;
+                 flex-direction: row;
+                 align-items: center;
+                 padding-bottom: 17px;
+                 a{
+                     padding-left: 10px;
+                 }
+             }
+        }
+     
+        .group{
+            @extend %column;
+            .bb{
+                display: flex;
+                flex-direction: column;
+                a{
+                    @extend %a;
+               }
+            }
+
+            h6{
+                @extend %h6;
+            }
+         }
+    }
+}
+
+@media (max-width:1315px){
+
+    .container{
+         max-width: 90%;
+         margin: auto;
+    }
+    #virtual .imgvirtual img, #learding .leardingimg img, #download .downloadimg img{
+        width: 650px;
+    }
+}
+
+@media(max-width:1165px){
+    #learding .leardingimg img, #download .downloadimg img{
+        width: 550px;
+        padding-top: 60px;
+    }
+}
+
+@media(max-width:1096px){
+    #virtual .virtualhealthcare{
+        padding-top: 80px;
+    }
+
+    #learding .leardingimg img, #download .downloadimg img{
+        width: 450px;
+    }
+}
+
+@media(max-width:1106px){
+    #outservices .text p{
+        width: 95%;
+    }
+
+    #outservices .card img{
+        width: 30%;
+        height: none;
+    }
+
+    #learding .learding-text{
+        padding-left: 50px;
+    }
+
+    #download, #learding{
+        padding-top: 165px;
+    }
+}
+
+@media(max-width:960px){
+    #virtual .imgvirtual img{
+        width: 550px;
+    }
+
+    .grouphuman{
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    .humancomment{
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+
+    #whatout .rectanglewhatout .comment .humancomment p{
+        width: 90%;
+    }
+
+    #whatout .rectanglewhatout .comment{
+        flex-direction: column;
+    }
+
+    #whatout .rectanglewhatout .comment{
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width:865px){
+    #virtual .virtualhealthcare h1{
+        font-size: 38px;
+    }
+
+    #virtual .imgvirtual img, #learding .leardingimg img, #download .downloadimg img{
+        width: 450px;
+    }
+
+    header nav a{
+        padding-left: 20px;
+    }
+
+    #checkoutour .readmore{
+        padding: 25px 0px 23px 23px;
+    }
+
+    #checkoutour h5{
+        padding: 24px 23px 23px 23px;
+    }
+
+    %p{
+        font-size: 18px;
+        line-height: 25px;
+        padding: 0px 23px 23px 23px;
+    }
+
+    %h2{
+        font-size: 26px;
+    }
+
+    %h3{
+        font-size: 20px;
+        line-height: 25px;
+        padding-bottom: 15px;
+    }
+}
+
+@media(max-width:761px){
+    #virtual .virtualhealthcare h1{
+        font-size: 33px;
+    }
+
+    %p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    #virtual .imgvirtual img, #learding .leardingimg img, #download .downloadimg img{
+        width: 350px;
+    }
+
+    #whatout .rectanglewhatout .comment .grouphuman .humantext{
+        padding-left: 0px;
+    }
+    
+    #checkoutour .cardscheck{
+        flex-wrap: wrap;
+        display: flex;
+        width: 100%;
+    }
+
+    #checkoutour .cardcheck{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:695px){
+    #virtual .imgvirtual img, #learding .leardingimg img, #download .downloadimg img {
+        width: 350px;
+        margin-top: 50px;
+    }
+
+
+
+    #virtual .virtualhealthcare {
+        padding-top: 50px;
+    }
+
+    footer .container .group1 .div a{
+        display: inline-block;
+    }
+
+    footer .container{
+        flex-wrap: wrap;
+    }
+
+    footer .container .group1 {
+        max-width: 100%;
+    }
+
+    footer .container{
+        padding: 25px 0 114px 0;
+    }
+}
+
+@media(max-width:690px){
+    #virtual .virtualhealthcare{
+        padding-top: 40px;
+    }
+
+    #virtual .virtualhealthcare h1{
+        font-size: 28px;
+    }
+
+    .button{
+        padding: 10px 35px;
+    }
+
+    #outservices .card{
+        width: 45%;
+    }
+}
+
+@media(max-width:610px){
+    .container{
+        width: 95%;
+    }
+
+    #outservices .card{
+        width: 48%;
+    }
+
+    header nav a{
+        padding-left: 10px;
+    }
+}
+
+@media(max-width:590px){
+    #outservices .card{
+        padding: 30px 25px 26px 23px;
+    }
+
+    .container{
+        max-width: 85%;
+    }
+
+    #virtual .virtualhealthcare h1 {
+        font-size: 23px;
+    }
+
+    .imgvirtual, .leardingimg, .downloadimg{
+        position: absolute;
+        opacity: 0.3;
+    }
+
+    .virtualhealthcare, .learding-text, .downloadtext{
+        position: relative;
+        z-index: 5;
+    }
+
+    #virtual .imgvirtual img, .leardingimg img, #download .downloadimg img{
+        width: 90%;
+    }
+
+    #virtual .virtualhealthcare, #learding .leardingimg img, #learding .leardingimg img{
+        width: 95%;
+        margin-top: 0px;
+    }
+
+    .div{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    header{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    #learding .learding-text, #learding .learding-text{
+        padding-left: 0px;
+    }
+
+    #learding {
+        padding-top: 65px;
+    }
+
+    #download{
+        padding-top: 165px;
+    }
+
+    #outservices{
+        margin-top: 200px;
+    }
+
+    #virtual .virtualhealthcare{
+        padding-top: 140px;
+    }
+
+    #whatout .rectanglewhatout .comment .grouphuman .humanimg img{
+        width: 100px;
+    }
+}
+
+@media(max-width:534px){
+    #whatout .rectanglewhatout h4{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 35px;
+    }
+
+    #whatout .rectanglewhatout .comment .grouphuman .humantext{
+        padding-left: -15px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .nav{
+        display: inline-block;
+    }
+
+    .nav img{
+        width: 42px;
+    }
+
+    .div {
+        width: 20%;
+    }
+
+    header{
+        flex-direction: row;
+    }
+
+}
+
+@media(max-width:468px){
+    #whatout .rectanglewhatout .comment .grouphuman{
+        width: 100%;
+    }
+
+    .humantext, .humanimg{
+        width: 100%;
+    }
+
+
+    #checkoutour .cardcheck{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #whatout .rectanglewhatout .comment .grouphuman{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:471px){
+    #outservices .card{
+        width: 100%;
+    }
+
+    #checkoutour .cardcheck{
+        width: 95%;
+    }
+}
+
+@media(max-width:411px){
+    #virtual .imgvirtual img {
+        width: 100%;
+    }
+
+    #virtual .virtualhealthcare{
+        margin-top: 20px;
+    }
+
+    footer, footer .container .group{
+        flex-direction: row;
+        padding-top: 20px;
+    }
+
+    footer .container .group .bb{
+        flex-direction: column;
+    }
+
+    footer .container .group h6{
+        line-height: 30px;
+        padding-right: 20px;
+        width: 110px;
+    }
+}
