@@ -74,6 +74,7 @@ $colore: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 
 .button{
@@ -104,8 +105,7 @@ $colore: #ffffff;
 header{
     @extend %row;
     padding-top: 62px;
-    padding-bottom: 84px;
-    
+    padding-bottom: 84px;    
     .logo{
         font-family: 'Mulish', sans-serif;
         font-weight: 700;
@@ -118,6 +118,7 @@ header{
         display: flex;
         flex-direction: row;
         align-items: center;
+        align-content: center;
         a{
             padding-left: 10px;
         }
@@ -131,7 +132,7 @@ header{
             color: $colorb;
             text-decoration: none;
             padding-left: 40px;
-
+            
             &:first-child{
                 color: $colora;
                 font-weight: 700;
@@ -532,7 +533,7 @@ footer{
     %p{
         font-size: 18px;
         line-height: 25px;
-        padding: 0px 23px 23px 23px;
+        padding-top: 25px;
     }
 
     %h2{
@@ -580,6 +581,10 @@ footer{
         margin-bottom: 15px;
         margin-top: 30px;
     }
+
+    #outservices .card{
+        width: 45%;
+    }
 }
 
 @media(max-width:695px){
@@ -587,8 +592,6 @@ footer{
         width: 350px;
         margin-top: 50px;
     }
-
-
 
     #virtual .virtualhealthcare {
         padding-top: 50px;
@@ -624,9 +627,9 @@ footer{
         padding: 10px 35px;
     }
 
-    #outservices .card{
-        width: 45%;
-    }
+    // #outservices .card{
+    //     width: 45%;
+    // }
 }
 
 @media(max-width:610px){
