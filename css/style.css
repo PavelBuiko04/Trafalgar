@@ -87,6 +87,8 @@ footer .container .group .bb a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .button {
@@ -144,6 +146,8 @@ header .div {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 header .div a {
@@ -558,7 +562,7 @@ footer .container .group .bb {
   #virtual .virtualhealthcare p, #outservices .text p, #outservices .card p, #learding .learding-text p, #download .downloadtext p, #checkoutour p {
     font-size: 18px;
     line-height: 25px;
-    padding: 0px 23px 23px 23px;
+    padding-top: 25px;
   }
   #outservices h2, #learding .learding-text h2, #download .downloadtext h2, #checkoutour h2 {
     font-size: 26px;
@@ -601,6 +605,9 @@ footer .container .group .bb {
     margin-bottom: 15px;
     margin-top: 30px;
   }
+  #outservices .card {
+    width: 45%;
+  }
 }
 
 @media (max-width: 695px) {
@@ -635,9 +642,6 @@ footer .container .group .bb {
   }
   .button {
     padding: 10px 35px;
-  }
-  #outservices .card {
-    width: 45%;
   }
 }
 
