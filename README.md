@@ -9,4 +9,5 @@
 - **HTML5 & CSS3** — to create the structure and design of the pages.
 
 ## URL
-(Website)[https://pavelbuiko04.github.io/Trafalgar/index.html#]
+[Website](https://pavelbuiko04.github.io/Trafalgar/index.html#)
+
